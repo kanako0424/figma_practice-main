@@ -1,0 +1,192 @@
+/*-----------------------------------------------
+ブロックの基底要素
+-----------------------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  font-family: "Noto Sans", serif;
+}
+
+
+body * {
+  font-family: "Noto Sans JP", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1.6rem;
+  margin: 0;
+  color: #333333;
+}
+
+
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 8px;
+  margin-top: 170px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+p {
+  margin: 0;
+}
+
+
+img {
+  width: 100%;
+}
+
+
+span {
+  font-size: 150%;
+  padding: auto 10px;
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.p1 {
+  padding: 20px;
+}
+
+.CTA {
+  width: 400px;
+  height: 70px;
+  border: none;
+  margin: auto;
+  background-color: #60CAAD;
+  border-radius: 4px;
+  display: block;
+  color: #fff;
+  font-size: 20px;
+}
+
+.miniCTA {
+  margin: 0;
+  width: 160px;
+  height: 52px;
+  font-size: 18px;
+}
+
+.logo {
+  background-color: #C4C4C4;
+  font-size: 28px;
+  width: 118px;
+  height: 44px;
+  text-align: center;
+}
+
+.thumbnail {
+  width: 480px;
+}
+
+.box {
+  padding: 50px;
+}
+
+header {
+  height: 80px;
+}
+
+#box1,#box3 {
+  background-color: #F9F9F9;
+}
+
+#box1 {
+  height: 540px;
+}
+
+#box1 p{ 
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 41px;
+  margin-bottom: 48px;
+}
+
+#box2 {
+  height: 540px;
+}
+
+#box2 div div {
+  width: 480px;
+  margin: 32px;
+}
+
+#box3 {
+  height: 418px;
+}
+
+#box3 h2 {
+  margin-bottom: 32px;
+}
+
+#box3 p {
+  text-align: center;
+}
+
+#box3 .text {
+  margin-bottom: 60px;
+}
+#box3 .text2 {
+  margin-bottom: 12px;
+}
+
+
+ 
+.text2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+ 
+.text2::before,
+.text2::after {
+  content: "";
+  width: 25px;
+  height: 1px;
+  background-color: #000;
+  margin: 0px 4px 4px;
+}
+ 
+.text2::before {
+  transform: rotate(45deg);
+}
+ 
+.text2::after {
+  transform: rotate(-45deg);
+}
+ 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 125px;
+  background-color: #333333;
+  color: #fff;
+}
