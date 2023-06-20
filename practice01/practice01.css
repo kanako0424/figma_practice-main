@@ -5,7 +5,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans JP", serif;
 }
 
 
@@ -23,14 +23,25 @@ body {
   margin: 0;
 }
 
+.box1-content {
+  position: relative;
+  top: 170px;
+}
+
 h1 {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 52px;
   margin-bottom: 8px;
-  margin-top: 170px;
 }
+
+
+.box2-content {
+  position: relative;
+  top: 72px;
+}
+
 
 h2 {
   text-align: center;
@@ -98,16 +109,9 @@ span {
   text-align: center;
 }
 
-.thumbnail {
-  width: 480px;
-}
-
-.box {
-  padding: 50px;
-}
-
 header {
   height: 80px;
+  padding: 20px 137px;
 }
 
 #box1,#box3 {
@@ -128,16 +132,34 @@ header {
 }
 
 #box2 {
-  height: 540px;
+  height: 549px;
 }
 
-#box2 div div {
+#box2 h2 {
+  margin-bottom: 32px;
+}
+
+#box2 .thumbnail {
   width: 480px;
-  margin: 32px;
+  margin-right: 32px;
+}
+
+#box2 img {
+  width: 480px;
+  height: 324px;
+}
+
+.box2-content-text {
+  width: 480px;
 }
 
 #box3 {
   height: 418px;
+}
+
+.box3-content {
+  position: relative;
+  top: 72px;
 }
 
 #box3 h2 {
@@ -162,23 +184,24 @@ header {
   justify-content: center;
   align-items: center;
   position: relative;
+  font-size: 18px;
+  font-weight: bold;
 }
  
 .text2::before,
 .text2::after {
   content: "";
-  width: 25px;
-  height: 1px;
+  width: 35px;
+  height: 2px;
   background-color: #000;
-  margin: 0px 4px 4px;
 }
  
 .text2::before {
-  transform: rotate(45deg);
+  transform: rotate(65deg);
 }
  
 .text2::after {
-  transform: rotate(-45deg);
+  transform: rotate(-65deg);
 }
  
 footer {
